@@ -15,7 +15,7 @@ D:/Users/270137506/OneDrive - UP Education/Documents/GitHub/game/Time Hoppers
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59152
+62780
 Successfully changed project path to: D:/Users/270137506/OneDrive - UP Education/Documents/GitHub/game/Time Hoppers
 D:/Users/270137506/OneDrive - UP Education/Documents/GitHub/game/Time Hoppers
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Users/270137506/OneDrive - UP Education/Documents/GitHub/game/Time Hoppers
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14788] Host "[IP] 10.2.20.210 [Port] 0 [Flags] 2 [Guid] 4076782580 [EditorId] 4076782580 [Version] 1048832 [Id] WindowsEditor(7,COL573-L3-07) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17608] Host "[IP] 10.2.20.210 [Port] 0 [Flags] 2 [Guid] 1207626043 [EditorId] 1207626043 [Version] 1048832 [Id] WindowsEditor(7,COL573-L3-07) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14788] Host "[IP] 10.2.20.210 [Port] 0 [Flags] 2 [Guid] 4076782580 [EditorId] 4076782580 [Version] 1048832 [Id] WindowsEditor(7,COL573-L3-07) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17608] Host "[IP] 10.2.20.210 [Port] 0 [Flags] 2 [Guid] 1207626043 [EditorId] 1207626043 [Version] 1048832 [Id] WindowsEditor(7,COL573-L3-07) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 13.91 ms, found 3 plugins.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 13.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.11f1 (fbf46ad88f3d)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity 2023.1.11f1/Editor/Data/Resources/UnitySubsystems
@@ -70,7 +70,7 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity 2023.1.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity 2023.1.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/Unity 2023.1.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -85,42 +85,42 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity 2023.1.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/Program Files/Unity 2023.1.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.006824 seconds.
-- Loaded All Assemblies, in  0.502 seconds
+Registered in 0.009713 seconds.
+- Loaded All Assemblies, in  0.780 seconds
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.433 seconds
-Domain Reload Profiling: 933ms
-	BeginReloadAssembly (195ms)
+- Finished resetting the current domain, in  0.915 seconds
+Domain Reload Profiling: 1692ms
+	BeginReloadAssembly (208ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (189ms)
-		LoadAssemblies (191ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (130ms)
+	LoadAllAssembliesAndSetupDomain (344ms)
+		LoadAssemblies (205ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (183ms)
-			TypeCache.Refresh (182ms)
-				TypeCache.ScanAssembly (168ms)
+		AnalyzeDomain (336ms)
+			TypeCache.Refresh (335ms)
+				TypeCache.ScanAssembly (312ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (433ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (916ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (379ms)
+		SetupLoadedEditorAssemblies (809ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (111ms)
+			InitializePlatformSupportModulesInManaged (143ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (9ms)
-			ProcessInitializeOnLoadAttributes (175ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (488ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,51 +143,51 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image D:\Users\270137506\OneDrive - UP Education\Documents\GitHub\game\Time Hoppers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Users\270137506\OneDrive - UP Education\Documents\GitHub\game\Time Hoppers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.383 seconds
-Refreshing native plugins compatible for Editor in 3.51 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.620 seconds
+Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.958 seconds
-Domain Reload Profiling: 2336ms
-	BeginReloadAssembly (393ms)
+- Finished resetting the current domain, in  4.397 seconds
+Domain Reload Profiling: 7005ms
+	BeginReloadAssembly (773ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (850ms)
-		LoadAssemblies (470ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (193ms)
+	LoadAllAssembliesAndSetupDomain (1530ms)
+		LoadAssemblies (736ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (537ms)
-			TypeCache.Refresh (510ms)
-				TypeCache.ScanAssembly (488ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
+		AnalyzeDomain (1020ms)
+			TypeCache.Refresh (997ms)
+				TypeCache.ScanAssembly (969ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (958ms)
+	FinalizeReload (4398ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (614ms)
+		SetupLoadedEditorAssemblies (3535ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (114ms)
-			ProcessInitializeOnLoadAttributes (420ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			InitializePlatformSupportModulesInManaged (171ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (2215ms)
+			ProcessInitializeOnLoadAttributes (1071ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 4.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3101 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (52.5 KB). Loaded Objects now: 3643.
-Memory consumption went from 123.4 MB to 123.4 MB.
-Total: 5.288400 ms (FindLiveObjects: 0.272000 ms CreateObjectMapping: 0.347100 ms MarkObjects: 4.481900 ms  DeleteObjects: 0.186200 ms)
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (52.5 KB). Loaded Objects now: 3644.
+Memory consumption went from 123.5 MB to 123.5 MB.
+Total: 10.403700 ms (FindLiveObjects: 0.556500 ms CreateObjectMapping: 0.532100 ms MarkObjects: 9.189600 ms  DeleteObjects: 0.123900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -200,31 +200,153 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 84925.862726 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(605f6d4c6c7dae24881d169dcf47ee8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(605f6d4c6c7dae24881d169dcf47ee8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6491e4c43ef65d7764e4a9cc9501a93b') in 0.003637 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae1c8b159634a553b7481d6ab34d1a1') in 0.000540 seconds
+  Time since last request: 88967.449524 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(57bbf1f8bf4e29246b597c4656420510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(57bbf1f8bf4e29246b597c4656420510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f002e920c140c73554c1145d05a5221') in 0.005132 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 4.09 ms, found 3 plugins.
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Users\270137506\OneDrive - UP Education\Documents\GitHub\game\Time Hoppers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\270137506\OneDrive - UP Education\Documents\GitHub\game\Time Hoppers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.106 seconds
+Refreshing native plugins compatible for Editor in 4.41 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.612 seconds
+Domain Reload Profiling: 2714ms
+	BeginReloadAssembly (241ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (746ms)
+		LoadAssemblies (399ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (469ms)
+			TypeCache.Refresh (461ms)
+				TypeCache.ScanAssembly (445ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1613ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (738ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (504ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 3.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3643.
-Memory consumption went from 73.9 MB to 73.9 MB.
-Total: 6.770600 ms (FindLiveObjects: 0.529900 ms CreateObjectMapping: 0.356000 ms MarkObjects: 5.807100 ms  DeleteObjects: 0.076400 ms)
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.4 KB). Loaded Objects now: 3645.
+Memory consumption went from 121.7 MB to 121.7 MB.
+Total: 4.763000 ms (FindLiveObjects: 0.311100 ms CreateObjectMapping: 0.270800 ms MarkObjects: 4.114100 ms  DeleteObjects: 0.066100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Users\270137506\OneDrive - UP Education\Documents\GitHub\game\Time Hoppers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\270137506\OneDrive - UP Education\Documents\GitHub\game\Time Hoppers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.124 seconds
+Refreshing native plugins compatible for Editor in 4.87 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.607 seconds
+Domain Reload Profiling: 2728ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (756ms)
+		LoadAssemblies (404ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (480ms)
+			TypeCache.Refresh (471ms)
+				TypeCache.ScanAssembly (452ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1609ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (751ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (508ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 4.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.4 KB). Loaded Objects now: 3646.
+Memory consumption went from 121.9 MB to 121.9 MB.
+Total: 7.107200 ms (FindLiveObjects: 0.385300 ms CreateObjectMapping: 0.347900 ms MarkObjects: 6.307700 ms  DeleteObjects: 0.065200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -242,265 +364,337 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.165182 seconds.
-  path: Assets/Scenes/Egypt Level.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Egypt Level.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914852c45deed4c0e805a4033ef5274a') in 0.001045 seconds
+  Time since last request: 367.966347 seconds.
+  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Prefab/The Adventurer Blake.prefab
+  artifactKey: Guid(a32b89e71fbd51d4d9b3d270682a75ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Prefab/The Adventurer Blake.prefab using Guid(a32b89e71fbd51d4d9b3d270682a75ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2b101ee0a3953bdcf15fb50a07dac3') in 0.447614 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 204
 ========================================================================
 Received Import Request.
-  Time since last request: 191.116862 seconds.
-  path: Assets/Nokobot
-  artifactKey: Guid(31c2745659141ea4b905cf29617e6bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot using Guid(31c2745659141ea4b905cf29617e6bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083e776a1d028a481168c5d8ad8d365e') in 0.000768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 20.129426 seconds.
-  path: Assets/ManNeko_Assets
-  artifactKey: Guid(a289497ef869e4841957b4f7841ff825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ManNeko_Assets using Guid(a289497ef869e4841957b4f7841ff825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5c2e0e0f8336ea683b1985036a795a') in 0.000764 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.440783 seconds.
-  path: Assets/_DesertKits64_Sample
-  artifactKey: Guid(6de64bc529353fa4c8ce5f820f106e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_DesertKits64_Sample using Guid(6de64bc529353fa4c8ce5f820f106e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9a4556b45f7a34d3ab3d5ad42f6e3a') in 0.000788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.784896 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0a7ef1c14d54095b344b5b7b6db27e') in 0.000700 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.147345 seconds.
-  path: Assets/Character
-  artifactKey: Guid(3373a0c8c9dcbd24791ed2885e441414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character using Guid(3373a0c8c9dcbd24791ed2885e441414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5eb63cf977121c44c9f1e6291b0d8a9') in 0.000742 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.999046 seconds.
-  path: Assets/Level
-  artifactKey: Guid(8cc0edad9fbbc9a4d8905254fd00785c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level using Guid(8cc0edad9fbbc9a4d8905254fd00785c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba3d4b00362a24031e223b488c0be40') in 0.000540 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.671376 seconds.
-  path: Assets/Level/Nokobot/EgyptianTomb_CatStatue
-  artifactKey: Guid(20e367b5e7afa8c4381e180e1d169260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level/Nokobot/EgyptianTomb_CatStatue using Guid(20e367b5e7afa8c4381e180e1d169260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad11b7e613b9121b5b0bb98cfce82a8a') in 0.000614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 69.724410 seconds.
-  path: Assets/Colours
-  artifactKey: Guid(fe871da3372927143a7d895bc3b1b7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Colours using Guid(fe871da3372927143a7d895bc3b1b7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7609e0c122f4c266108549a6a97063d1') in 0.000501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 48.564653 seconds.
-  path: Assets/Level/Nokobot/EgyptianTomb_CatStatue/02_Models
-  artifactKey: Guid(0cdd7a3c47a3c984585ca2d2b11b0faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level/Nokobot/EgyptianTomb_CatStatue/02_Models using Guid(0cdd7a3c47a3c984585ca2d2b11b0faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944c1f865a1a57ed152da5f2160e8bfe') in 0.000761 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.974833 seconds.
-  path: Assets/Level/Nokobot/EgyptianTomb_CatStatue/02_Models/Statue_Cat.fbx
-  artifactKey: Guid(51c2e9b99cdcd68408e242bf07b9d33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level/Nokobot/EgyptianTomb_CatStatue/02_Models/Statue_Cat.fbx using Guid(51c2e9b99cdcd68408e242bf07b9d33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4a171ba4e65e238d8d665f4be2cd6b') in 0.528938 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 71.667639 seconds.
-  path: Assets/Level/_DesertKits64_Sample/Materials
-  artifactKey: Guid(a967945624e591b4795d0bafce47f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level/_DesertKits64_Sample/Materials using Guid(a967945624e591b4795d0bafce47f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a6d53a1a42ad82c507566450b5a77d') in 0.000722 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.533588 seconds.
-  path: Assets/Level/_DesertKits64_Sample/Prefabs
-  artifactKey: Guid(a7cbb340822d1b74583bab7f05c2e33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level/_DesertKits64_Sample/Prefabs using Guid(a7cbb340822d1b74583bab7f05c2e33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ee613c5985afc9a3962d14c35e00cd') in 0.001024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.171912 seconds.
-  path: Assets/Level/_DesertKits64_Sample/Prefabs/Pyramid_Thin_Base.prefab
-  artifactKey: Guid(847ad21e052823640b649f294605afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level/_DesertKits64_Sample/Prefabs/Pyramid_Thin_Base.prefab using Guid(847ad21e052823640b649f294605afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a116f375f207e9ddfc1f11b6ef5b42a1') in 0.255829 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 3.835806 seconds.
-  path: Assets/Level/_DesertKits64_Sample/Prefabs/Pyramid_Thin_Tip.prefab
-  artifactKey: Guid(ab440feedacbd0d40aaac5abd4acd8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level/_DesertKits64_Sample/Prefabs/Pyramid_Thin_Tip.prefab using Guid(ab440feedacbd0d40aaac5abd4acd8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420531c7aa996943ad2f48fefb194346') in 0.018591 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 82.346112 seconds.
-  path: Assets/Character/ManNeko_Assets/Adventurer Blake
-  artifactKey: Guid(b8286e6e48643a244a7ddaee34dd7f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/ManNeko_Assets/Adventurer Blake using Guid(b8286e6e48643a244a7ddaee34dd7f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e6a10d49cd358be213cd281d337200') in 0.000895 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.358325 seconds.
-  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Materials
-  artifactKey: Guid(e9086bf4263d80844aa3e7bcfb30ac7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Materials using Guid(e9086bf4263d80844aa3e7bcfb30ac7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc115c42dd9026806dd2172479af81e') in 0.000823 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.157860 seconds.
-  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Prefab
-  artifactKey: Guid(f8eb48a4375f53645958c5db29d8c136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Prefab using Guid(f8eb48a4375f53645958c5db29d8c136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c58db49a3e9208141fbf68a6210656') in 0.000673 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 34.926476 seconds.
-  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Animations
-  artifactKey: Guid(99ca94df6b3ce944d886b083977e0df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Animations using Guid(99ca94df6b3ce944d886b083977e0df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5451be6b70125c6a79a5e0aa39a85056') in 0.000677 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.147508 seconds.
-  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/jump descending.anim
-  artifactKey: Guid(f5e9afe8b8a01b64db17cb99b93d711c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/jump descending.anim using Guid(f5e9afe8b8a01b64db17cb99b93d711c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d2ee6e1d39b8087de4daa21cbb5b1c') in 0.005098 seconds
+  Time since last request: 42.777660 seconds.
+  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/dead2.anim
+  artifactKey: Guid(06095aeec7a7def4699c20ac14e5ad1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/dead2.anim using Guid(06095aeec7a7def4699c20ac14e5ad1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d8d8544ac50a7ed38f690dc2669c82') in 0.008316 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.430879 seconds.
-  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/dead.anim
-  artifactKey: Guid(f9bd027ba2763fe4a998194b739a9b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/dead.anim using Guid(f9bd027ba2763fe4a998194b739a9b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf757541624d4637125c1d5fe1d8233') in 0.005791 seconds
+  Time since last request: 6.114481 seconds.
+  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/crashing.anim
+  artifactKey: Guid(8d3ca897ce547f746846f0c58126c8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/crashing.anim using Guid(8d3ca897ce547f746846f0c58126c8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b6c2fe1fc39e6c7f176c9d95f35829') in 0.012718 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 4.509389 seconds.
-  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/jump ascending.anim
-  artifactKey: Guid(932d967711e3d6143aff8eb60bb56710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/jump ascending.anim using Guid(932d967711e3d6143aff8eb60bb56710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265832ef106c10ac0b8d542f2d6686d7') in 0.004667 seconds
+  Time since last request: 97.848424 seconds.
+  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/ManNeko Animator Controller.controller
+  artifactKey: Guid(cb2741518dfd0f24da32aad90e5d5118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/ManNeko Animator Controller.controller using Guid(cb2741518dfd0f24da32aad90e5d5118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b55cf7e2690a7b07fe4a7ee14024a9') in 0.002133 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
-Received Import Request.
-  Time since last request: 0.806549 seconds.
-  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/idle.anim
-  artifactKey: Guid(87c284a0f7620a34eb006fa995dc67fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/idle.anim using Guid(87c284a0f7620a34eb006fa995dc67fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae13f108693e78ccd623e83d4490171') in 0.016357 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Users\270137506\OneDrive - UP Education\Documents\GitHub\game\Time Hoppers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\270137506\OneDrive - UP Education\Documents\GitHub\game\Time Hoppers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.128 seconds
+Refreshing native plugins compatible for Editor in 4.99 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.549 seconds
+Domain Reload Profiling: 2673ms
+	BeginReloadAssembly (263ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (751ms)
+		LoadAssemblies (418ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (470ms)
+			TypeCache.Refresh (461ms)
+				TypeCache.ScanAssembly (442ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1550ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (729ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (491ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.6 KB). Loaded Objects now: 3655.
+Memory consumption went from 130.0 MB to 130.0 MB.
+Total: 5.730100 ms (FindLiveObjects: 0.306700 ms CreateObjectMapping: 0.334700 ms MarkObjects: 5.001000 ms  DeleteObjects: 0.086200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.989163 seconds.
-  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/pistol shooting with recoil.anim
-  artifactKey: Guid(40609936d83e2a04ba402521655c5ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/pistol shooting with recoil.anim using Guid(40609936d83e2a04ba402521655c5ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807bcb9fe5b3db57ff63d619f452e884') in 0.003700 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Users\270137506\OneDrive - UP Education\Documents\GitHub\game\Time Hoppers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\270137506\OneDrive - UP Education\Documents\GitHub\game\Time Hoppers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.099 seconds
+Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.584 seconds
+Domain Reload Profiling: 2677ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (727ms)
+		LoadAssemblies (423ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (440ms)
+			TypeCache.Refresh (433ms)
+				TypeCache.ScanAssembly (417ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1584ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (735ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (501ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 4.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.6 KB). Loaded Objects now: 3656.
+Memory consumption went from 130.3 MB to 130.3 MB.
+Total: 7.390300 ms (FindLiveObjects: 0.301900 ms CreateObjectMapping: 0.422100 ms MarkObjects: 6.579600 ms  DeleteObjects: 0.085400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 3.364722 seconds.
-  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/walking left.anim
-  artifactKey: Guid(2a47106d22a35914aa3982ceb3a22dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/walking left.anim using Guid(2a47106d22a35914aa3982ceb3a22dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f6f3441988492fc98b58413d964bc9') in 0.005361 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Users\270137506\OneDrive - UP Education\Documents\GitHub\game\Time Hoppers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\270137506\OneDrive - UP Education\Documents\GitHub\game\Time Hoppers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.112 seconds
+Refreshing native plugins compatible for Editor in 4.32 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.715 seconds
+Domain Reload Profiling: 2823ms
+	BeginReloadAssembly (254ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (760ms)
+		LoadAssemblies (395ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (487ms)
+			TypeCache.Refresh (451ms)
+				TypeCache.ScanAssembly (435ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (1715ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (738ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (493ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.6 KB). Loaded Objects now: 3657.
+Memory consumption went from 130.3 MB to 130.3 MB.
+Total: 7.242900 ms (FindLiveObjects: 0.342300 ms CreateObjectMapping: 0.424500 ms MarkObjects: 6.399500 ms  DeleteObjects: 0.075500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.799028 seconds.
-  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/T-pose.anim
-  artifactKey: Guid(06d5e148d5fe3f946ad3eab2e458e23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/T-pose.anim using Guid(06d5e148d5fe3f946ad3eab2e458e23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3b62a85abc30d5eacf9ba858c77dea') in 0.002702 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.189977 seconds.
-  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/A-pose.anim
-  artifactKey: Guid(fd8188736a73a054990c4d18e464de90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/A-pose.anim using Guid(fd8188736a73a054990c4d18e464de90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c855a3585ea3bc238c1f936dedae6da') in 0.002719 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 5.413625 seconds.
-  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/jump landing.anim
-  artifactKey: Guid(ffdb97938f4dc9d4ba870dd7b2253b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/jump landing.anim using Guid(ffdb97938f4dc9d4ba870dd7b2253b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd165b82af4b9d6788686979fac434715') in 0.006495 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.443134 seconds.
-  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/punch left and right.anim
-  artifactKey: Guid(2c75f93d5a367e24782bf070e185e747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/punch left and right.anim using Guid(2c75f93d5a367e24782bf070e185e747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5654711c2b99f09a156596d1f362052') in 0.009684 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.745380 seconds.
-  path: Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/running.anim
-  artifactKey: Guid(a907980df956b824db404143d9ee8ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/ManNeko_Assets/Adventurer Blake/Animations/running.anim using Guid(a907980df956b824db404143d9ee8ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90054408353533c69cc75cc295b19674') in 0.006129 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 12.126368 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(3a932926c2eaded4ea4db21b9eb0eae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(3a932926c2eaded4ea4db21b9eb0eae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf741a8aeb2059d6f867d83b4b4b67db') in 0.000510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 49.600279 seconds.
-  path: Assets/Scripts/Movement.cs
-  artifactKey: Guid(57bbf1f8bf4e29246b597c4656420510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Movement.cs using Guid(57bbf1f8bf4e29246b597c4656420510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe6550017b246caf8adb332c8d21203') in 0.000529 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 32.338960 seconds.
-  path: Assets/Scripts/Movement.cs
-  artifactKey: Guid(57bbf1f8bf4e29246b597c4656420510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Movement.cs using Guid(57bbf1f8bf4e29246b597c4656420510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c433e28dcc1784aeb978e4015e32f573') in 0.001177 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Users\270137506\OneDrive - UP Education\Documents\GitHub\game\Time Hoppers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\270137506\OneDrive - UP Education\Documents\GitHub\game\Time Hoppers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.084 seconds
+Refreshing native plugins compatible for Editor in 4.70 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.614 seconds
+Domain Reload Profiling: 2691ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (741ms)
+		LoadAssemblies (395ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (466ms)
+			TypeCache.Refresh (459ms)
+				TypeCache.ScanAssembly (439ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (749ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (514ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.6 KB). Loaded Objects now: 3658.
+Memory consumption went from 130.3 MB to 130.3 MB.
+Total: 6.498000 ms (FindLiveObjects: 0.297200 ms CreateObjectMapping: 0.316600 ms MarkObjects: 5.799800 ms  DeleteObjects: 0.083000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
