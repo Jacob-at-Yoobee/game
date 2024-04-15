@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Example : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Example : MonoBehaviour
     private float playerSpeed = 2.0f;
     private float jumpHeight = 1.0f;
     private float gravityValue = -9.81f;
+    Vector3 position;
 
     private void Start()
     {
@@ -40,5 +42,11 @@ public class Example : MonoBehaviour
 
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
+
+        if (position.x == 31.41117 && position.y == 1.73 && position.z == 110.2605)
+        {
+            Debug.Log("Solve this puzzle to collect the treasure!");
+            SceneManager.LoadScene("SlidingTilePuzzle");
+        }
     }
 }
